@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Ringkasan lingkup solusi security system untuk pabrik, gedung perkantoran, kampus, mal, rumah sakit, dan area parkir." />
+  <title>Portofolio | Cahaya Mustika Internesia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    /* Terapkan tema tersimpan sebelum halaman tampil agar tidak berkedip */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+      var m = document.querySelector('meta[name="theme-color"]');
+      if (m) m.setAttribute("content", t === "dark" ? "#0b1722" : "#ffffff");
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Cahaya Mustika Internesia - Beranda">
+        <span class="brand-mark">CM</span>
+        <span class="brand-name">CAHAYA MUSTIKA<small>INTERNESIA</small></span>
+      </a>
+      <nav class="main-nav" id="primary-navigation" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="portofolio.html" aria-current="page">Portofolio</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="kontak.html">Kontak Kami</a>
+        <a class="btn btn-primary nav-cta-mobile" href="kontak.html">Konsultasikan Sekarang</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Beralih ke mode malam" aria-pressed="false" title="Ganti tema">
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.3M12 19.2v2.3M2.5 12h2.3M19.2 12h2.3M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+        </button>
+        <a class="btn btn-primary nav-cta" href="kontak.html">Konsultasikan Sekarang <span>↗</span></a>
+        <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span aria-hidden="true">/</span><span aria-current="page">Portofolio</span></nav>
+        <h1>Portofolio Proyek</h1>
+        <p>Ringkasan lingkup solusi security system untuk berbagai jenis fasilitas dan industri.</p>
+      </div>
+    </section>
+    <section class="section-pad sec-alt">
+      <div class="container">
+        <div class="proj-grid">
+          <article class="proj-card">
+            <div class="proj-media"><img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=80" alt="Pabrik & Kawasan Industri" loading="lazy" decoding="async"><span class="proj-badge">Industri</span></div>
+            <div class="proj-body">
+              <h3>Pabrik & Kawasan Industri</h3>
+              <p>Pengawasan perimeter, area produksi, gudang, dan akses keluar masuk barang dalam satu dashboard.</p>
+              <div class="proj-scope"><small>Lingkup solusi</small><ul><li>CCTV AI</li><li>Perimeter</li><li>Access Control</li></ul></div>
+              <a class="proj-link" href="kontak.html">Konsultasikan proyek serupa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-media"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80" alt="Gedung Perkantoran" loading="lazy" decoding="async"><span class="proj-badge">Perkantoran</span></div>
+            <div class="proj-body">
+              <h3>Gedung Perkantoran</h3>
+              <p>Kontrol akses lobby dan lantai dengan log kehadiran yang terdokumentasi untuk kebutuhan audit.</p>
+              <div class="proj-scope"><small>Lingkup solusi</small><ul><li>Turnstile</li><li>Access Control</li><li>CCTV</li></ul></div>
+              <a class="proj-link" href="kontak.html">Konsultasikan proyek serupa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-media"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80" alt="Kampus & Sekolah" loading="lazy" decoding="async"><span class="proj-badge">Pendidikan</span></div>
+            <div class="proj-body">
+              <h3>Kampus & Sekolah</h3>
+              <p>Pengawasan gerbang, koridor, dan ruang publik agar kegiatan belajar lebih aman dan terpantau.</p>
+              <div class="proj-scope"><small>Lingkup solusi</small><ul><li>CCTV</li><li>Gerbang</li><li>Command Center</li></ul></div>
+              <a class="proj-link" href="kontak.html">Konsultasikan proyek serupa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-media"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=800&q=80" alt="Mal & Area Komersial" loading="lazy" decoding="async"><span class="proj-badge">Komersial</span></div>
+            <div class="proj-body">
+              <h3>Mal & Area Komersial</h3>
+              <p>Pemantauan area pengunjung dan pengelolaan parkir yang tertib untuk operasional harian.</p>
+              <div class="proj-scope"><small>Lingkup solusi</small><ul><li>CCTV</li><li>Smart Parking</li><li>Command Center</li></ul></div>
+              <a class="proj-link" href="kontak.html">Konsultasikan proyek serupa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-media"><img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=800&q=80" alt="Rumah Sakit" loading="lazy" decoding="async"><span class="proj-badge">Kesehatan</span></div>
+            <div class="proj-body">
+              <h3>Rumah Sakit</h3>
+              <p>Pengamanan area sensitif dan arus pengunjung dengan akses staf yang terkontrol.</p>
+              <div class="proj-scope"><small>Lingkup solusi</small><ul><li>Access Control</li><li>CCTV</li><li>Alarm</li></ul></div>
+              <a class="proj-link" href="kontak.html">Konsultasikan proyek serupa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="proj-card">
+            <div class="proj-media"><img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80" alt="Area Parkir Terintegrasi" loading="lazy" decoding="async"><span class="proj-badge">Parkir</span></div>
+            <div class="proj-body">
+              <h3>Area Parkir Terintegrasi</h3>
+              <p>Gate otomatis, panduan slot, dan deteksi kendaraan di area terlarang.</p>
+              <div class="proj-scope"><small>Lingkup solusi</small><ul><li>Smart Parking</li><li>Gate Otomatis</li><li>CCTV</li></ul></div>
+              <a class="proj-link" href="kontak.html">Konsultasikan proyek serupa <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+        <p class="small-note">*Ganti foto dan deskripsi dengan data proyek asli yang sudah terverifikasi.</p>
+      </div>
+    </section>
+    <section class="contact-cta">
+      <div class="container cta-inner">
+        <div>
+          <h2>Bangun Sistem Keamanan yang Lebih Cerdas dan Terintegrasi</h2>
+          <p>Tingkatkan keamanan fasilitas Anda dengan solusi Integrated Security System yang dirancang sesuai kebutuhan operasional. Mulai dari pengawasan, kontrol akses, hingga monitoring terpusat, kami siap mendukung terciptanya sistem keamanan yang andal, skalabel, dan mudah dikelola.</p>
+        </div>
+        <a class="btn btn-accent" href="https://wa.me/628113301819" target="_blank" rel="noopener">Konsultasi via WhatsApp <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a class="brand brand-light" href="index.html" aria-label="Cahaya Mustika Internesia - Beranda">
+          <span class="brand-mark">CM</span>
+          <span class="brand-name">CAHAYA MUSTIKA<small>INTERNESIA</small></span>
+        </a>
+        <p>PT Cahaya Mustika Internesia menyediakan berbagai solusi perangkat security system untuk mendukung kebutuhan keamanan perkantoran, gedung komersial, area industri, dan berbagai lingkungan lainnya.</p>
+      </div>
+      <div class="footer-navigation">
+        <h4>Navigasi</h4>
+        <a href="index.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="portofolio.html">Portofolio</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="kontak.html">Kontak Kami</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Kontak Kami</h4>
+        <a href="https://wa.me/628113301819" target="_blank" rel="noopener">Telepon / WhatsApp: +62 811-3301-819</a>
+        <p>Jl. Penjernihan II No.7, RT.11/RW.6, Bend. Hilir, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10210</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 PT Cahaya Mustika Internesia. All Rights Reserved.</span>
+      <a href="#top">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
